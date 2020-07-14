@@ -1,0 +1,3 @@
+#primaryDB files - excluding due to size at this time
+Database/*.db
+Database/
