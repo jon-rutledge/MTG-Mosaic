@@ -3,6 +3,9 @@
 # Mosaic Builder in Python using MTG art
 ### Under Construction
 
+![Narset-original](Narset_Upscaled.png)
+![Narset-Mosaic](Narset-20pixTiles.png)
+
 ##### Prerequisites
 
 1. Libraries (to be added)
