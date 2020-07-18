@@ -306,7 +306,7 @@ def BuildMosaicMTG(TargetImage,  pix_width=10, rescale_mod = .2, show = False):
     pix = im.load()
 
     #Connect to DB
-    conn = sqlite3.connect('CurrentBuild/mtgDB.db')
+    conn = sqlite3.connect('Database/mtgDB.db')
 
     #to prevent image repeating issues:
     #key = cardID and values are [x,y]
@@ -375,7 +375,9 @@ def BuildMosaicMTG(TargetImage,  pix_width=10, rescale_mod = .2, show = False):
 
 #PreprocessHSVvalues(40)
 
-BuildMosaicMTG('Narset1_Upscaled.png', pix_width = 20, rescale_mod = 1, show=False).save('Narset-20-20200703', 'PNG')
+BuildMosaicMTG('niv_upscaled.png', pix_width = 20, rescale_mod = 1, show=False).save('Niv-20pix', 'PNG')
+
+BuildMosaicMTG('Meren_upscaled.png', pix_width = 20, rescale_mod = 1, show=False).save('Meren-20pix', 'PNG')
 
 
 ########################################
